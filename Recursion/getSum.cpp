@@ -1,24 +1,23 @@
 #include <iostream>
 using namespace std;
 
-void printNto1(int n ){
+int getSum(int n){
+
     if(n==0){
-        return;
+        return 0;
 
     }
 
-    cout<<n<<"";
+    return n+getSum(n-1);
 
-    printNto1(n-1);
 
 }
+
 
 int main(){
 
     int n=4;
-
-    printNto1(n);
+    cout<<getSum(n);
     return 0;
     
-
 }
