@@ -9,7 +9,18 @@ int getSum(int n){
   }else{
 
       return getSum(n/10)+n%10;
-      
+
   }
+
+}
+
+int main(){
+    int n=2345;
+
+    cout<<getSum(n);
+    
+
+
+
 
 }
