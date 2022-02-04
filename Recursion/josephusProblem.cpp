@@ -12,7 +12,7 @@
  }
 
  int main(){
-int n=5;
+int n=10;
 int k=3;
 
 int result=jos(n,k);
