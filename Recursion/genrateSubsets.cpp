@@ -20,6 +20,4 @@ using namespace std;
   string s="ABC";
   subsets(s);
 
-
-
- }
+}  
