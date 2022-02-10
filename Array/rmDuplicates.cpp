@@ -12,9 +12,7 @@ int rmDuplicates(int arr[],int n){
     }
 
 
-    return res;
-
-
+   return res;
 }
 
 int main()
@@ -28,7 +26,7 @@ int main()
 
     for(int i=0;i<a;i++){
         cout<<arr[i];
-        
+
     }
 
 
