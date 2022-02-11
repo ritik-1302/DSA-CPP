@@ -25,8 +25,4 @@ int arr[]={
 };
 
 cout<<maxDiff(arr,7);
-
-
-
-
 }
