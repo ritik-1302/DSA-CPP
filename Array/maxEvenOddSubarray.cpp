@@ -21,7 +21,6 @@ int maxEvenOdd(int arr[],int n){
 
  return res;
 
-
 }
 
 int main(){
